@@ -1,0 +1,143 @@
+body{
+     background: url(https://images.pexels.com/photos/6515553/pexels-photo-6515553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+     background-size: cover;
+     background-repeat: no-repeat;
+     line-height: 25px;
+     font-size: 20px;
+     
+
+}
+input{
+     width:180px;
+     /* height: 20px; */
+     padding: 2px;
+     margin: 5px;
+     border: 2px solid white;
+}
+input[type=radio], input[type=checkbox]{
+     width: 35px !important;
+}
+h3{
+     margin-left: -20px;
+     float: left;
+     /* clear: both; */
+     width: 100%;
+}
+.form{
+     width: 700px;
+     height: 1200px;
+     margin: auto;
+     background: rgba(255, 255, 255, 0.242);
+     opacity: ;
+     border: 2px solid white;
+     color: white;
+     padding: 50px;
+}
+/* input[type=password]{
+     float: right;
+} */
+.mails{
+     /* float: left; */
+     margin-left:30px;
+}
+.pas{
+     margin-left: 10px;
+}
+
+
+
+
+.pas ,.ln, .right{
+     float: right;
+     /* clear: right; */
+}
+/* .address, .dob, .fn{
+     clear: both;
+
+} */
+.dob input{
+     margin-left: 25px;
+     width: 180px;
+     height: 25px;
+}
+.address input{
+     margin: 0px 50px 0px 100px;
+     height: 100px;
+     width: 545px;
+}
+.acc, .per, .fur {
+     margin: 20px;
+     text-align: left;
+}
+.acc {height: 150px;
+     border-bottom: 2px solid white;}
+.per{
+     height: 320px;
+     border-bottom: 2px solid white;
+}
+.fur{
+     height: 200px;
+     border-bottom: 2px solid white;
+}
+ .left{
+     float: left;
+}
+/* .coun{
+     margin-right: 5px;
+} */
+.coun select{
+     width: 188px;
+     height: 25px;
+     margin-right: 5px;
+}
+.gen{
+     margin-left: 20px;
+}
+.skills{
+     margin-left: 20px;
+}
+.cond{
+     width: 100%;
+     margin-left: 20px ;
+     text-align: left;
+}
+.cond input{
+     margin-left: 20px;
+}
+
+.imgu input{
+     /* margin-top: -30px; */
+     margin-left: 10px;
+     margin-right: 10px;
+     border: none;
+     /* clear: both; */
+}
+.expe input{
+     margin-left: 10px;
+     -webkit-appearance: none !important;
+  	width: 170px;
+ 	height: 5px;
+  	background: white;
+  	border: none;
+     border-radius: 3px;
+  	outline: none;
+}
+
+button{
+     background-color: rgba(255, 255, 255, 0.364);
+     color: white;
+     font-size: 17px;
+     letter-spacing: 1.5px;
+     font-weight: 1000;
+     border-radius: 30px;
+     /* margin-top: 50px; */
+     width: 150px;
+     height: 40px;
+     margin: 95px;
+     
+}
+button:hover{
+     background-color: rgba(255, 255, 255, 0.707);
+     color: dimgray;
+    
+}
